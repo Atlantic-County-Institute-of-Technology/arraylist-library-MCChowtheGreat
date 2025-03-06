@@ -1,4 +1,4 @@
-# Overview
+o# Overview
 In this project, you will create a digital Library system that manages a collection of media items using Java's ArrayList. These items can be songs, TV shows, movies, etc; the kind of media we are storing is arbitrary. This project will help you understand how to effectively use ArrayLists to store, manipulate, and organize data.
 
 # Part I: Library
