@@ -19,12 +19,13 @@ collection.add(item);
     public String getNextItem() {
         if (collection.isEmpty()) {
             return "Libary is empty.";
-
         }
+
         else {
             return collection.get(0);
         }
     }
+
     public void skipNextItem() {
         if (!collection.isEmpty()){
             collection.remove(0);
@@ -43,6 +44,7 @@ collection.add(item);
             }
         }
     }
+
     public void shuffle() {
         Random rand = new Random();
         for ( int i = collection.size() - 1; i > 0; i--) {
@@ -60,9 +62,7 @@ collection.add(item);
             }
         }
         return -1;
-
     }
-
     }
 
 
